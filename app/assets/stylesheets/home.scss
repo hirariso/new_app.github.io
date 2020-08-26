@@ -11,19 +11,30 @@
 }
 
 .home_content{
+    padding-top:50px ;
+    width: 60%;
     margin:0 auto;
 }
 
-.home_left{
-    width: 30%;
-    height: 30%;
+.home_left,.home_right{
+    width: 50%;
+    float: left;
+    font-size: 28px;
+}
+
+.home_right{
+    padding: 20px;
+}
+
+.home_right a{
+    margin: 10px;
+    display: inline-block;
+    background-color: white;
+    width: 50%;
+    color: rgba($color: #74ddeb, $alpha: 1.0);
 }
 
 .home_left img{
     height: 100%;
     width: 100%;
-}
-
-.home_right{
-    width: 50%;
 }
