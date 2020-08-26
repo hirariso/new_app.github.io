@@ -1,3 +1,29 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.home_container{
+    background-color:rgba($color: #ff3333, $alpha: 0.9);
+    width: 100%;
+    min-height: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+.home_content{
+    margin:0 auto;
+}
+
+.home_left{
+    width: 30%;
+    height: 30%;
+}
+
+.home_left img{
+    height: 100%;
+    width: 100%;
+}
+
+.home_right{
+    width: 50%;
+}
