@@ -1,2 +1,10 @@
-<h1>Posts#index</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+<div class="home_container">
+    <h1>さぁ、みんなに勇気を与えよう！！できる！！できる！！</h1>
+    <div class="post_contents">
+        <% @posts.each do |post| %>
+            <div class="post_content">
+                <%= post.content %>
+            </div>
+        <% end %>
+    </div>
+</div>
