@@ -23,3 +23,23 @@
  h1, h2, h3, h4, h5, h6, p {
     margin: 0;
   }
+
+
+  header{
+    height: 80px;
+    background-color: rgb(170, 63, 63);
+    width: 100%;
+    margin-top: -20px;
+}
+
+header li{
+  list-style: none;
+  float: left;
+  width: 10%;
+}
+
+header a{
+  display: inline-block;
+  color: white;
+  line-height: 80px;
+}
